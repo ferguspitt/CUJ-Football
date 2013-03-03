@@ -1,3 +1,5 @@
+#team names: Newley Purnell, Fergus Pitt, Khadeejha Safdar, Peter Ward
+
 #set up API call
 
 from urllib import urlopen
