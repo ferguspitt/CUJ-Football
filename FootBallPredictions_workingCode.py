@@ -6,10 +6,10 @@ from urllib import urlopen
 from urllib import urlencode
 
 
-#create a url to look for the last 500 search results in english with #thfcvafc and "prediction" 
+#create a url to look for the last 100 search results in english with #thfcvafc and "prediction" 
 
 prefix = "http://search.twitter.com/search.json"
-suffix = "?"+ urlencode({"q":"#thfcvafc+prediction","rpp":500,"result_type":"recent","lang":"en"})
+suffix = "?"+ urlencode({"q":"#thfcvafc+prediction","rpp":100,"result_type":"recent","lang":"en"})
 url = prefix+suffix
 
 #read the data
